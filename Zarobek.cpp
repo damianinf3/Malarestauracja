@@ -1,7 +1,7 @@
 #include <iostream>
-#include "Zarobek.h"//' oznacza szukaj l=pliku w folderze z projektu
-#include <fstream>//korzystanie z pliku tekstowego
-#include <cstdlib>//uzycie funkcji exit
+#include "Zarobek.h"
+#include <fstream>
+#include <cstdlib>
 #include <string>
 #include <ctime>
 
@@ -30,7 +30,7 @@ else if(a>=95 && a<=100)
 {
     b=(std::rand()%50)+50;
 }
-cout<<"Twoj napiwek to: "<<b<<endl;
+cout<<"Twoj napiwek to: "<<b<<"zl"<<endl;
 }
 Zarobek::Zarobek(int be)
 {

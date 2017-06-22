@@ -20,6 +20,7 @@ int sumaczasu=0;
 double sumazysk=0;
 double sumanap=0;
 double zarobek=0;
+double sredni_czas=0;
 int x=0,y=0,z=0;
 int t=0;
 cout<<"Witamy w naszej Malej restauracji podaj liczbe klientow"<<endl;
@@ -91,25 +92,24 @@ zarobek=sumanap+sumazysk;
 
 
     }
-
-cout<<"Twoj zarobek to: "<<zarobek<<endl;
+cout<<"Zysk z dan wynosi: "<<sumazysk<<"zl"<<endl;
+cout<<"Twoj zarobek to: "<<zarobek<<"zl"<<endl;
 
 cout<<"Do zaplacenia razem "<<sumacen<<"zl"<<endl;
-cout<<"Laczny czas oczekiwania na wszystkie posilki "<<sumaczasu<<"min"<<endl;
+cout<<"Laczny czas : "<<sumaczasu<<"min"<<endl;
 
 
 t=x+y+z;
-
-
-cout<<"AAAAA"<<t<<endl;
+sredni_czas=sumaczasu/liczba;
 
 
 
 Paragon w1;
 w1.sum_cena=sumacen;
+w1.sr_czas=sredni_czas;
 w1.Druk_paragon();
-cout<<"Drukowanie paragonu"<<endl;
-cout<<"Zysk z dan wynosi: "<<sumazysk<<"zl"<<endl;
+
+
 
 
 
@@ -139,13 +139,8 @@ p1.Popularne_D();
     Weganin nr_dan1=0;
     Weganin zysk1=0;
     proces(odpowiedz1,wzyskl1,nr_dan1,zysk1);
-
-  //  Paragon w1;
-//w1.sum_cena=sumacen;
-//w1.Druk_paragon();
 cout<<"Drukowanie paragonu"<<endl;
-//cout<<"Zysk z dan wynosi: "<<sumazysk<<endl;
-//cout<<"Lolo"<<sumaczasu/2<<endl;// Czy to moge wrzucic bezposrednio do funkcji drukuj w klasie paragon?
+
 
       return 0;
 }

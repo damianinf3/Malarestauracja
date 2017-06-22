@@ -8,7 +8,7 @@ class Paragon
    public:
         int sum_cena;
 
-    int max_czas;
+    double sr_czas;
 
     void Licz_czas();
 

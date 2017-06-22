@@ -10,7 +10,7 @@ class Zarobek
 
 
 public:
-//friend void proces(Zarobek b);
+
 double b;
     void Napiwek();
 Zarobek(int=1);

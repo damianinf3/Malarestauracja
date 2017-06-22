@@ -38,8 +38,12 @@
 		<Unit filename="Miesozerca.h" />
 		<Unit filename="Paragon.cpp" />
 		<Unit filename="Paragon.h" />
+		<Unit filename="Statystyka.cpp" />
+		<Unit filename="Statystyka.h" />
 		<Unit filename="Weganin.cpp" />
 		<Unit filename="Weganin.h" />
+		<Unit filename="Zarobek.cpp" />
+		<Unit filename="Zarobek.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

@@ -28,7 +28,6 @@ protected:
 
 
 
-    //string odpowiedz;
     int punkt; //1lub 0
 
     int nr_dan;

@@ -25,9 +25,8 @@ remove("paragon.txt");
 
     plik<<"Mala restauracja"<<endl;
     plik<<"Rachunek za posilki"<<endl;
-    plik<<"Lacznie wydales : "<<sum_cena<<endl;
-
-    plik<<"Najdluzszy czas oczekiwania to: "<<max_czas<<endl;
+    plik<<"Lacznie wydales : "<<sum_cena<<"zl."<<endl;
+    plik<<"Sredni czas oczekiwania to: "<<sr_czas<<"min"<<endl;
     plik<<"Twoj numerek to: "<<( std::rand() % 50 ) + 1<<endl;
 
     plik.close();

@@ -9,9 +9,7 @@ class   Miesozerca: public Weganin
 
 
 public:
-/*int wzyskl;
-int czasl;
-double zysk;*/
+
  Miesozerca(int=1,int=1);
   ~Miesozerca();
    void wczytaj();//wczytuje menu

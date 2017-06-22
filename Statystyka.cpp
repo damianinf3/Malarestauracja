@@ -9,8 +9,7 @@ using namespace std;
 
 void Statystyka ::Popularne_D()
 {
-cout<<"Czy wchodzi"<<endl;
-cout<<"ZET= "<<s<<endl;
+
 
 m=(wybm/s)*100;
 w=(wybw/s)*100;

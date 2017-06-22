@@ -8,7 +8,7 @@ using namespace std;
 
 void Weganin::wczytaj()
 {
-    fstream plik;//wspolpraca z plikeim tekstowym zajecia 7 c++
+    fstream plik;
         plik.open("Menu.txt",ios::in);//in jest metoda klasy ios ::-operator zasiegu
         if (plik.good()==false)
         {
@@ -16,7 +16,7 @@ void Weganin::wczytaj()
             exit(0);
         }
 
-        int nr_linii=(nr_dan)*15+1;//inna nazwa
+        int nr_linii=(nr_dan)*15+1;
         int aktualny_nr=1;
 
         string linia;
@@ -86,8 +86,8 @@ void Weganin :: Licz_zysk()
         wzyskl=atoi(wzysk.c_str(  ));
         czasl=atoi(czas.c_str( ));
         zysk=(double(wzyskl)*7)/100;
-        cout<<"Cena:"<<wzysk<<"zl"<<endl;
-        cout<<"czas przygotowania:"<<czas<<"min"<<endl;
+        cout<<"Cena: "<<wzysk<<"zl"<<endl;
+        cout<<"Czas przygotowania: "<<czas<<"min"<<endl;
     }
 
  if(odpowiedz==2)
@@ -101,8 +101,8 @@ void Weganin :: Licz_zysk()
        wzyskl=atoi(wzysk.c_str(  ));
        czasl=atoi(czas.c_str( ));
        zysk=(double(wzyskl)*7)/100;
-        cout<<"Cena:"<<wzysk<<"zl"<<endl;
-        cout<<"czas przygotowania:"<<czas<<"min"<<endl;
+        cout<<"Cena: "<<wzysk<<"zl"<<endl;
+        cout<<"Czas przygotowania: "<<czas<<"min"<<endl;
 
     } if(odpowiedz==3)
     {
@@ -115,9 +115,9 @@ void Weganin :: Licz_zysk()
         wzyskl=atoi(wzysk.c_str(  ));
         czasl=atoi(czas.c_str( ));
         zysk=(double(wzyskl)*7)/100;
-        cout<<"Cena:"<<wzysk<<"zl"<<endl;
+        cout<<"Cena: "<<wzysk<<"zl"<<endl;
 
-        cout<<"czas przygotowania:"<<czas<<"min"<<endl;
+        cout<<"Czas przygotowania: "<<czas<<"min"<<endl;
     } if(odpowiedz==4)
     {
           czas_przygot4.erase(0,20);
@@ -129,8 +129,8 @@ czas=czas_przygot4;
 wzyskl=atoi(wzysk.c_str(  ));
 czasl=atoi(czas.c_str( ));
 zysk=(double(wzyskl)*7)/100;
-        cout<<"Cena:"<<wzysk<<"zl"<<endl;
-        cout<<"czas przygotowania:"<<czas<<"min"<<endl;
+        cout<<"Cena: "<<wzysk<<"zl"<<endl;
+        cout<<"Czas przygotowania: "<<czas<<"min"<<endl;
 } if(odpowiedz==5)
     {
           czas_przygot5.erase(0,20);
@@ -141,9 +141,9 @@ zysk=(double(wzyskl)*7)/100;
         czas=czas_przygot5;
         wzyskl=atoi(wzysk.c_str(  ));
         czasl=atoi(czas.c_str( ));
-        cout<<"Cena:"<<wzysk<<"zl"<<endl;
+        cout<<"Cena: "<<wzysk<<"zl"<<endl;
         zysk=(double(wzyskl)*7)/100;
-        cout<<"czas przygotowania:"<<czas<<"min"<<endl;
+        cout<<"Czas przygotowania: "<<czas<<"min"<<endl;
     }
 
   if(odpowiedz>=6 || odpowiedz==0)
