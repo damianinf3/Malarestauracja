@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1497823543 source:c:\users\damian\desktop\malrestauracja\malarestauracja\main.cpp
+	<iostream>
+	<string>
+	"Weganin.h"
+	"Miesozerca.h"
+	"Cukrzyk.h"
+
+1497819020 source:c:\users\damian\desktop\malrestauracja\malarestauracja\cukrzyk.cpp
+	<iostream>
+	"Cukrzyk.h"
+	<fstream>
+	<cstdlib>
+
+1497821576 c:\users\damian\desktop\malrestauracja\malarestauracja\cukrzyk.h
+	<iostream>
+
+1497819020 c:\users\damian\desktop\malrestauracja\malarestauracja\weganin.h
+	<iostream>
+
+1497819029 c:\users\damian\desktop\malrestauracja\malarestauracja\miesozerca.h
+	<iostream>
+	<string>
+
+1497819020 source:c:\users\damian\desktop\malrestauracja\malarestauracja\miesozerca.cpp
+	<iostream>
+	"Miesozerca.h"
+	<fstream>
+	<cstdlib>
+	<string>
+
+1497819020 source:c:\users\damian\desktop\malrestauracja\malarestauracja\weganin.cpp
+	<iostream>
+	"Weganin.h"
+	<fstream>
+	<cstdlib>
+
+1498076141 source:c:\users\damian\desktop\malarestauracja\cukrzyk.cpp
+	<iostream>
+	"Cukrzyk.h"
+	<fstream>
+	<cstdlib>
+
+1498078047 c:\users\damian\desktop\malarestauracja\cukrzyk.h
+	"Weganin.h"
+
+1498100586 source:c:\users\damian\desktop\malarestauracja\main.cpp
+	<iostream>
+	<string>
+	"Weganin.h"
+	"Miesozerca.h"
+	"Cukrzyk.h"
+	"Paragon.h"
+	"Zarobek.h"
+	"Statystyka.h"
+
+1498085406 c:\users\damian\desktop\malarestauracja\weganin.h
+	<iostream>
+	<string>
+
+1498076141 c:\users\damian\desktop\malarestauracja\miesozerca.h
+	"Weganin.h"
+
+1498076141 source:c:\users\damian\desktop\malarestauracja\miesozerca.cpp
+	<iostream>
+	"Miesozerca.h"
+	<fstream>
+	<cstdlib>
+	<string>
+
+1498075831 source:c:\users\damian\desktop\malarestauracja\weganin.cpp
+	<iostream>
+	"Weganin.h"
+	<fstream>
+	<cstdlib>
+	<math.h>
+
+1498072110 c:\users\damian\desktop\malarestauracja\paragon.h
+	<iostream>
+	<string>
+
+1498080141 source:c:\users\damian\desktop\malarestauracja\paragon.cpp
+	<iostream>
+	"Paragon.h"
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+
+1498093235 source:c:\users\damian\desktop\malarestauracja\zarobek.cpp
+	<iostream>
+	"Zarobek.h"
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+
+1498087342 c:\users\damian\desktop\malarestauracja\zarobek.h
+	<iostream>
+	<string>
+
+1498099926 c:\users\damian\desktop\malarestauracja\statystyka.h
+	<iostream>
+	<string>
+
+1498100316 source:c:\users\damian\desktop\malarestauracja\statystyka.cpp
+	<iostream>
+	"Statystyka.h"
+	<fstream>
+	<cstdlib>
+	<string>
+	<ctime>
+
